@@ -1,25 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RyanV</title>
+    <title>Ryan & Felix Art Gallery</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
-        <h1>Hoi Welkom, wij zijn R & F</h1> 
-        <h2>Wij houden van TEKENEN!</h2>
-      <h2> Hieronder een klein stukje over ons </h2>  
-        <h2>Ryan: Ik wil een microbioloog worden als ik later groot ben!</h2>
-      <h2>Felix: Ik hou van Dino's en wil later een paleontoloog worden!</h2>
+    <header>
+      <h1>🎨 Ryan & Felix Art Gallery</h1>
+      <p>Welcome to our creative world!</p>
+    </header>
 
-      <h2>Hieronder een paar tekeningen die wij gemaakt hebben.</h2>
-      <img src="FelixTekening1.jpg" alt="Felix" style="width:350px;height:350px;">
-<img src="FelixTekeningMinecraft1.jpg" alt="Felix" style="width:350px;height:350px;">
+    <main>
+      <section class="intro">
+        <div class="child-cards">
+          <div class="child-card" data-child="ryan">
+            <div class="child-avatar">👨‍🔬</div>
+            <h3>Ryan</h3>
+            <p>Future Microbiologist</p>
+            <p class="hobby">Loves drawing and science!</p>
+          </div>
+          <div class="child-card" data-child="felix">
+            <div class="child-avatar">🦕</div>
+            <h3>Felix</h3>
+            <p>Future Paleontologist</p>
+            <p class="hobby">Loves dinosaurs and drawing!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="gallery-header">
+          <h2 id="gallery-title">Choose an artist to see their amazing drawings!</h2>
+          <button id="show-all" class="show-all-btn" style="display: none;">Show All Drawings</button>
+        </div>
+        
+        <div class="gallery" id="gallery">
+          <div class="drawing-card" data-artist="felix">
+            <img src="FelixTekening1.jpg" alt="Felix's Drawing 1" loading="lazy">
+            <div class="drawing-info">
+              <h4>Felix's Masterpiece</h4>
+              <span class="artist-tag">🦕 Felix</span>
+            </div>
+          </div>
+          <div class="drawing-card" data-artist="felix">
+            <img src="FelixTekeningMinecraft1.jpg" alt="Felix's Minecraft Drawing" loading="lazy">
+            <div class="drawing-info">
+              <h4>Minecraft Adventure</h4>
+              <span class="artist-tag">🦕 Felix</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <p>Made with ❤️ by Ryan & Felix</p>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
