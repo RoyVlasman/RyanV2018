@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const childCards = document.querySelectorAll('.child-card');
     const drawingCards = document.querySelectorAll('.drawing-card');
