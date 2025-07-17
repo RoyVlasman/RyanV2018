@@ -108,29 +108,35 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', () => {
+        // Get all necessary elements
         const childCards = document.querySelectorAll('.child-card');
         const drawingCards = document.querySelectorAll('.drawing-card');
         const showAllBtn = document.getElementById('show-all');
         const galleryTitle = document.getElementById('gallery-title');
-        
+
+        // Add click handlers to child cards
         childCards.forEach(card => {
-            card.addEventListener('click', function () {
-                const artist = card.getAttribute('data-child');
-                drawingCards.forEach(dc => {
-                    if (dc.getAttribute('data-artist') === artist) {
-                        dc.style.display = '';
-                    } else {
-                        dc.style.display = 'none';
-                    }
+            card.addEventListener('click', () => {
+                const selectedArtist = card.getAttribute('data-child');
+                
+                // Filter drawings
+                drawingCards.forEach(drawing => {
+                    const artistName = drawing.getAttribute('data-artist');
+                    drawing.style.display = (artistName === selectedArtist) ? 'block' : 'none';
                 });
-                showAllBtn.style.display = '';
-                galleryTitle.textContent = `Drawings by ${artist.charAt(0).toUpperCase() + artist.slice(1)}`;
+
+                // Update UI
+                showAllBtn.style.display = 'block';
+                galleryTitle.textContent = `${selectedArtist.charAt(0).toUpperCase() + selectedArtist.slice(1)}'s Drawings`;
             });
         });
-        
-        showAllBtn.addEventListener('click', function () {
-            drawingCards.forEach(dc => dc.style.display = '');
+
+        // Add click handler to "Show All" button
+        showAllBtn.addEventListener('click', () => {
+            drawingCards.forEach(drawing => {
+                drawing.style.display = 'block';
+            });
             showAllBtn.style.display = 'none';
             galleryTitle.textContent = 'Choose an artist to see their amazing drawings!';
         });
