@@ -107,4 +107,32 @@ document.addEventListener('DOMContentLoaded', function() {
             this.alt = 'Image not available';
         });
     });
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        const childCards = document.querySelectorAll('.child-card');
+        const drawingCards = document.querySelectorAll('.drawing-card');
+        const showAllBtn = document.getElementById('show-all');
+        const galleryTitle = document.getElementById('gallery-title');
+        
+        childCards.forEach(card => {
+            card.addEventListener('click', function () {
+                const artist = card.getAttribute('data-child');
+                drawingCards.forEach(dc => {
+                    if (dc.getAttribute('data-artist') === artist) {
+                        dc.style.display = '';
+                    } else {
+                        dc.style.display = 'none';
+                    }
+                });
+                showAllBtn.style.display = '';
+                galleryTitle.textContent = `Drawings by ${artist.charAt(0).toUpperCase() + artist.slice(1)}`;
+            });
+        });
+        
+        showAllBtn.addEventListener('click', function () {
+            drawingCards.forEach(dc => dc.style.display = '');
+            showAllBtn.style.display = 'none';
+            galleryTitle.textContent = 'Choose an artist to see their amazing drawings!';
+        });
+    });
 });
