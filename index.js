@@ -109,36 +109,44 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     document.addEventListener('DOMContentLoaded', () => {
-        // Get all necessary elements
         const childCards = document.querySelectorAll('.child-card');
-        const drawingCards = document.querySelectorAll('.drawing-card');
+        const gallery = document.getElementById('gallery');
         const showAllBtn = document.getElementById('show-all');
         const galleryTitle = document.getElementById('gallery-title');
 
         // Add click handlers to child cards
         childCards.forEach(card => {
             card.addEventListener('click', () => {
-                const selectedArtist = card.getAttribute('data-child');
-                
-                // Filter drawings
-                drawingCards.forEach(drawing => {
-                    const artistName = drawing.getAttribute('data-artist');
-                    drawing.style.display = (artistName === selectedArtist) ? 'block' : 'none';
-                });
-
-                // Update UI
+                const artist = card.getAttribute('data-child');
+                filterGallery(artist);
                 showAllBtn.style.display = 'block';
-                galleryTitle.textContent = `${selectedArtist.charAt(0).toUpperCase() + selectedArtist.slice(1)}'s Drawings`;
+                galleryTitle.textContent = `${artist.charAt(0).toUpperCase() + artist.slice(1)}'s Drawings`;
             });
         });
 
-        // Add click handler to "Show All" button
+        // Show all button handler
         showAllBtn.addEventListener('click', () => {
-            drawingCards.forEach(drawing => {
-                drawing.style.display = 'block';
-            });
+            showAllDrawings();
             showAllBtn.style.display = 'none';
             galleryTitle.textContent = 'Choose an artist to see their amazing drawings!';
         });
+
+        function filterGallery(artist) {
+            const drawings = gallery.querySelectorAll('.drawing-card');
+            drawings.forEach(drawing => {
+                if (drawing.getAttribute('data-artist') === artist) {
+                    drawing.style.display = 'block';
+                } else {
+                    drawing.style.display = 'none';
+                }
+            });
+        }
+
+        function showAllDrawings() {
+            const drawings = gallery.querySelectorAll('.drawing-card');
+            drawings.forEach(drawing => {
+                drawing.style.display = 'block';
+            });
+        }
     });
 });
