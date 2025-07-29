@@ -55,20 +55,20 @@ main {
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s;
+  border: 2px solid transparent;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-  border: 3px solid transparent;
 }
 
 .child-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border-color: #667eea;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: #4CAF50;
 }
 
 .child-card.active {
-  border-color: #48bb78;
-  background: rgba(72, 187, 120, 0.1);
+  border-color: #4CAF50;
+  background-color: #f0fff0;
 }
 
 .child-avatar {
