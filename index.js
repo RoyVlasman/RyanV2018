@@ -41,4 +41,67 @@ document.addEventListener('DOMContentLoaded', () => {
         galleryTitle.textContent = 'Choose an artist to see their amazing drawings!';
         showAllBtn.style.display = 'none';
     });
+
+    // Add modal functionality
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    let currentImageIndex = 0;
+    const images = document.querySelectorAll('.drawing-card img');
+
+    function showImage(index) {
+        currentImageIndex = index;
+        modalImg.src = images[index].src;
+        
+        // Update button visibility
+        prevBtn.style.display = index === 0 ? 'none' : 'block';
+        nextBtn.style.display = index === images.length - 1 ? 'none' : 'block';
+    }
+
+    images.forEach((img, index) => {
+        img.addEventListener('click', function() {
+            modal.style.display = 'block';
+            showImage(index);
+        });
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentImageIndex > 0) {
+            showImage(currentImageIndex - 1);
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentImageIndex < images.length - 1) {
+            showImage(currentImageIndex + 1);
+        }
+    });
+
+    // Add keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (modal.style.display === 'block') {
+            if (e.key === 'ArrowLeft' && currentImageIndex > 0) {
+                showImage(currentImageIndex - 1);
+            }
+            if (e.key === 'ArrowRight' && currentImageIndex < images.length - 1) {
+                showImage(currentImageIndex + 1);
+            }
+            if (e.key === 'Escape') {
+                modal.style.display = 'none';
+            }
+        }
+    });
+
+    // Close modal when clicking X
+    closeModal.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+    // Close modal when clicking outside the image
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
 });
