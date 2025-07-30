@@ -55,7 +55,8 @@ main {
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s;
+  transition: all 0.3s ease;
+  position: relative;
   border: 2px solid transparent;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
@@ -63,12 +64,11 @@ main {
 .child-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  border-color: #4CAF50;
 }
 
 .child-card.active {
+  background-color: #f0f9ff;
   border-color: #4CAF50;
-  background-color: #f0fff0;
 }
 
 .child-avatar {
@@ -115,20 +115,17 @@ main {
 }
 
 .show-all-btn {
-  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
   border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 25px;
+  border-radius: 4px;
   cursor: pointer;
-  font-family: inherit;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  color: #4a5568;
+  transition: background-color 0.3s ease;
 }
 
 .show-all-btn:hover {
-  background: white;
-  transform: scale(1.05);
+  background-color: #45a049;
 }
 
 .gallery {
@@ -143,9 +140,12 @@ main {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-  opacity: 1;
-  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+.drawing-card[hidden] {
+  display: none;
 }
 
 .drawing-card:hover {
