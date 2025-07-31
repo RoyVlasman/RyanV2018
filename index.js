@@ -42,9 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
         showAllBtn.style.display = 'none';
     });
 
-    // Add modal functionality
+    // Get modal elements
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImage');
+    const closeBtn = document.querySelector('.close-modal');
     const prevBtn = document.querySelector('.prev-btn');
     const nextBtn = document.querySelector('.next-btn');
     let currentImageIndex = 0;
@@ -94,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close modal when clicking X
-    closeModal.addEventListener('click', function() {
+    closeBtn.addEventListener('click', function() {
         modal.style.display = 'none';
     });
 
