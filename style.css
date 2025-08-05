@@ -324,14 +324,14 @@ footer {
     font-weight: bold;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    display: none; /* Hidden by default */
 }
 
 body[data-env="development"] .env-indicator {
+    display: block;
     background: #ff6b6b;
-    color: white;
 }
 
 body[data-env="production"] .env-indicator {
-    background: #51cf66;
-    color: white;
+    display: none;
 }

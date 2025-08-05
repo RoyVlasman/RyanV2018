@@ -3,8 +3,17 @@
 echo "🔄 Environment Switcher"
 echo "---------------------"
 
+create_dev_branch() {
+    if ! git show-ref --quiet refs/heads/dev; then
+        echo "Creating development branch..."
+        git checkout -b dev
+        git push -u origin dev
+    fi
+}
+
 case "$1" in
     "dev")
+        create_dev_branch
         echo "🛠️  Switching to DEVELOPMENT environment..."
         git checkout dev
         echo "✅ Now in DEVELOPMENT mode"
