@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Environment detection
+    const hostname = window.location.hostname;
+    const envIndicator = document.createElement('div');
+    envIndicator.className = 'env-indicator';
+    
+    if (hostname.includes('localhost') || hostname.includes('-dev')) {
+        document.body.setAttribute('data-env', 'development');
+        envIndicator.textContent = 'Development';
+        document.querySelector('header').appendChild(envIndicator);
+    }
+
     // Get all required elements
     const childCards = document.querySelectorAll('.child-card');
     const drawingCards = document.querySelectorAll('.drawing-card');
