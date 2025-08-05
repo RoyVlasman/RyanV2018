@@ -311,3 +311,26 @@ footer {
 .next-btn {
     right: 20px;
 }
+
+.env-indicator {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #ff6b6b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+body[data-env="development"] .env-indicator {
+    background: #ff6b6b;
+    color: white;
+}
+
+body[data-env="production"] .env-indicator {
+    background: #51cf66;
+    color: white;
+}
