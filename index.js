@@ -1,14 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Environment detection
     const hostname = window.location.hostname;
+    const branch = window.location.pathname.includes('-dev') ? 'dev' : 'main';
     const envIndicator = document.createElement('div');
     envIndicator.className = 'env-indicator';
-    
-    if (hostname.includes('localhost') || hostname.includes('-dev')) {
-        document.body.setAttribute('data-env', 'development');
-        envIndicator.textContent = 'Development';
-        document.querySelector('header').appendChild(envIndicator);
-    }
+    envIndicator.textContent = branch === 'dev' ? 'Development' : '';
+    document.querySelector('header').appendChild(envIndicator);
 
     // Get all required elements
     const childCards = document.querySelectorAll('.child-card');
