@@ -169,7 +169,8 @@ main {
 }
 
 .drawing-info {
-  padding: 1.5rem;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .drawing-info h4 {
@@ -334,4 +335,104 @@ body[data-env="development"] .env-indicator {
 
 body[data-env="production"] .env-indicator {
     display: none;
+}
+
+/* Add new gallery controls and interaction styles */
+.gallery-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.sort-select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-family: 'Comic Neue', cursive;
+    background-color: white;
+}
+
+.gallery-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sort-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sort-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sort-btn:hover {
+  background: #f0f0f0;
+}
+
+.sort-btn.active {
+  background: #4CAF50;
+  color: white;
+  border-color: #45a049;
+}
+
+.drawing-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.date-tag {
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+
+.date-stamp {
+  font-size: 0.8em;
+  color: #666;
+  display: block;
+  margin-top: 4px;
+}
+
+.interaction-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.like-btn, .favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.like-btn:hover, .favorite-btn:hover {
+  transform: scale(1.1);
+}
+
+.like-count {
+  font-size: 0.8em;
+  margin-left: 4px;
+}
+
+.favorite-btn.active {
+  color: gold;
+}
+
+.like-btn.active .heart {
+  color: red;
 }
