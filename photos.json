@@ -1,0 +1,284 @@
+{
+    "photos": [
+        {
+            "id": "paperpanda",
+            "artist": "ryan",
+            "title": "Ryan's Paperpanda",
+            "filename": "paperpanda.jpg",
+            "date": "2024-01-15",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-family2",
+            "artist": "ryan",
+            "title": "Ryan's family 2",
+            "filename": "ryanfamily2.jpg",
+            "date": "2024-10-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-vlinder",
+            "artist": "ryan",
+            "title": "Ryan's Vlinder",
+            "filename": "RyanVlinder.jpg",
+            "date": "2025-09-26",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-sushi",
+            "artist": "ryan",
+            "title": "Ryan's Sushi",
+            "filename": "RyanSushi.jpg",
+            "date": "2025-09-26",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-felix-ijsjes",
+            "artist": "ryan",
+            "title": "Ryan's en Felix's ijsjes",
+            "filename": "Felix&RyanIJsjes.jpg",
+            "date": "2025-09-26",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-alles-verhaal",
+            "artist": "ryan",
+            "title": "Ryan's alles verhaal",
+            "filename": "RyanAllesVerhaal.jpg",
+            "date": "2025-09-26",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-family",
+            "artist": "ryan",
+            "title": "Ryan's family",
+            "filename": "RyanFamily.jpg",
+            "date": "2024-01-14",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-dragon",
+            "artist": "ryan",
+            "title": "Ryan's Toothless",
+            "filename": "RyanDragon.jpg",
+            "date": "2024-01-13",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-pokemon-world",
+            "artist": "ryan",
+            "title": "Ryan's DinoWorld",
+            "filename": "RyanPokemonWorld.jpg",
+            "date": "2024-01-12",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-paperpop",
+            "artist": "ryan",
+            "title": "Ryan's paperfigure",
+            "filename": "paperpop.jpg",
+            "date": "2024-01-11",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-creeper",
+            "artist": "ryan",
+            "title": "Ryan's Creeper",
+            "filename": "RyanCreeper.jpg",
+            "date": "2024-01-10",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-apophis",
+            "artist": "ryan",
+            "title": "Ryan's Apophis Masker",
+            "filename": "Ryan Apophis.jpg",
+            "date": "2024-01-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-dennis",
+            "artist": "ryan",
+            "title": "Ryan's Dennis Minecraft",
+            "filename": "RyanDennis.jpg",
+            "date": "2024-01-08",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-unknown",
+            "artist": "ryan",
+            "title": "Ryan's Pokemon",
+            "filename": "RyanUnknown.jpg",
+            "date": "2024-01-07",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-pichu",
+            "artist": "ryan",
+            "title": "Ryan's Pichu Pokemon",
+            "filename": "RyanPichu.jpg",
+            "date": "2024-01-06",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-cat",
+            "artist": "ryan",
+            "title": "Ryan's Cat Minecraft",
+            "filename": "RyanCat.jpg",
+            "date": "2024-01-05",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "felix-dinoryancat",
+            "artist": "felix",
+            "title": "Felix Dino & Ryan Cat",
+            "filename": "felixdinoryancat.jpg",
+            "date": "2024-01-15",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-vlinder",
+            "artist": "felix",
+            "title": "Felix's Vlinder",
+            "filename": "FelixVlinder.jpg",
+            "date": "2025-09-26",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-gigantosaurus",
+            "artist": "felix",
+            "title": "Felix's Giganto",
+            "filename": "FelixGigantosaurus.jpg",
+            "date": "2025-09-26",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-dino-kralen",
+            "artist": "felix",
+            "title": "Felix's dinokralen",
+            "filename": "FelixDinoKralen.jpg",
+            "date": "2025-09-26",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-piratenschip",
+            "artist": "felix",
+            "title": "Felix's Piratenschip",
+            "filename": "FelixPiratenschip.jpg",
+            "date": "2025-09-26",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-minecraft-world",
+            "artist": "felix",
+            "title": "Felix Minecraft Wereld",
+            "filename": "FelixMinecraftWorld1.jpg",
+            "date": "2024-01-14",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-family-love",
+            "artist": "felix",
+            "title": "Felix's Family Love",
+            "filename": "FelixFamilyLove.jpg",
+            "date": "2024-01-13",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-owl",
+            "artist": "felix",
+            "title": "Felix's Owl",
+            "filename": "FelixOwl.jpg",
+            "date": "2024-01-12",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-dino-ride",
+            "artist": "felix",
+            "title": "Felix's Dinoriding",
+            "filename": "FelixDinoRide.jpg",
+            "date": "2024-01-11",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-paint-minecraft",
+            "artist": "felix",
+            "title": "Felix's painting",
+            "filename": "paintminecraft.jpg",
+            "date": "2024-01-10",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-fatcat",
+            "artist": "felix",
+            "title": "Felix's FatCat",
+            "filename": "fatcat.jpg",
+            "date": "2024-01-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-tekening1",
+            "artist": "felix",
+            "title": "Felix's Masterpiece",
+            "filename": "FelixTekening1.jpg",
+            "date": "2024-01-08",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-apophis",
+            "artist": "felix",
+            "title": "Felix's Apophis Masker",
+            "filename": "Felix Apophis.jpg",
+            "date": "2024-01-07",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-pokemon",
+            "artist": "felix",
+            "title": "Felix's Pokemon",
+            "filename": "FelixPokemon.jpg",
+            "date": "2024-01-06",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-creeper",
+            "artist": "felix",
+            "title": "Felix's Creeper",
+            "filename": "FelixCreeper.jpg",
+            "date": "2024-01-05",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-2",
+            "artist": "felix",
+            "title": "Dinosaurs Everywhere",
+            "filename": "Felix2.jpg",
+            "date": "2024-01-04",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-5",
+            "artist": "felix",
+            "title": "Prehistoric Adventure",
+            "filename": "Felix5.jpg",
+            "date": "2024-01-03",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-4",
+            "artist": "felix",
+            "title": "T-Rex World",
+            "filename": "Felix4.jpg",
+            "date": "2024-01-02",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-minecraft-1",
+            "artist": "felix",
+            "title": "Minecraft Adventure",
+            "filename": "FelixTekeningMinecraft1.jpg",
+            "date": "2024-01-01",
+            "emoji": "🦕"
+        }
+    ]
+}
