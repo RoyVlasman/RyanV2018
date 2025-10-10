@@ -1,0 +1,32 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment scripts (keep these local for development)
+commands.sh
+switch-env.sh
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (if you add any node modules later)
+node_modules/
+
+# Local environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+*.tmp
+temp.*
