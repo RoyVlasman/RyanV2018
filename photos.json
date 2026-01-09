@@ -1,5 +1,37 @@
 {
     "photos": [
+         {
+            "id": "Ryan MegaMagalor",
+            "artist": "ryan",
+            "title": "Ryan's MegaMagalor",
+            "filename": "RyanMegaMagalor.jpg",
+            "date": "2026-01-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "Ryan Kirby Blow",
+            "artist": "ryan",
+            "title": "Ryan's Kirby Blow",
+            "filename": "RyanKirbyZuig.jpg",
+            "date": "2026-01-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "RyanKirbyWaddleDee",
+            "artist": "ryan",
+            "title": "Ryan's Kirby and Waddle Dee",
+            "filename": "RyanKirbyWaddleDee.jpg",
+            "date": "2026-01-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "Ryan Kirby",
+            "artist": "ryan",
+            "title": "Ryan's Kirby",
+            "filename": "RyanKirby123.jpg",
+            "date": "2026-01-09",
+            "emoji": "👨‍🔬"
+        },
         {
             "id": "paperpanda",
             "artist": "ryan",
