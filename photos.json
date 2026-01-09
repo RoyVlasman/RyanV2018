@@ -1,6 +1,14 @@
 {
     "photos": [
-         {
+        {
+            "id": "Ryan schatkaart",
+            "artist": "ryan",
+            "title": "Ryan's SchatKaart",
+            "filename": "RyanSchatKaart.jpg",
+            "date": "2026-01-09",
+            "emoji": "👨‍🔬"
+        }, 
+        {
             "id": "Ryan MegaMagalor",
             "artist": "ryan",
             "title": "Ryan's MegaMagalor",
@@ -44,7 +52,7 @@
             "id": "ryan-cat112",
             "artist": "ryan",
             "title": "Ryan's Cat",
-            "filename": "ryancat112.jpg",
+            "filename": "RyanCat112.jpg",
             "date": "2024-01-15",
             "emoji": "👨‍🔬"
         },
