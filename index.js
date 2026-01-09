@@ -119,3 +119,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize filtering after gallery loads
     setTimeout(() => initializeFiltering(), 100);
 });
+});
