@@ -67,4 +67,6 @@ function formatDate(dateStr) {
     });
 }
 
-document.addEventListener('DOMContentLoaded', loadGallery);
+document.addEventListener('DOMContentLoaded', () => {
+    loadGallery();
+});

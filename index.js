@@ -1,12 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Environment detection
-    const hostname = window.location.hostname;
-    const branch = window.location.pathname.includes('-dev') ? 'dev' : 'main';
-    const envIndicator = document.createElement('div');
-    envIndicator.className = 'env-indicator';
-    envIndicator.textContent = branch === 'dev' ? 'Development' : '';
-    document.querySelector('header').appendChild(envIndicator);
-
+function initializeFiltering() {
     // Get all required elements
     const childCards = document.querySelectorAll('.child-card');
     const drawingCards = document.querySelectorAll('.drawing-card');
@@ -113,5 +105,17 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'none';
         }
     });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Environment detection
+    const hostname = window.location.hostname;
+    const branch = window.location.pathname.includes('-dev') ? 'dev' : 'main';
+    const envIndicator = document.createElement('div');
+    envIndicator.className = 'env-indicator';
+    envIndicator.textContent = branch === 'dev' ? 'Development' : '';
+    document.querySelector('header').appendChild(envIndicator);
+    
+    // Initialize filtering after gallery loads
+    setTimeout(() => initializeFiltering(), 100);
 });
-document.addEventListener('DOMContentLoaded', () => {});
