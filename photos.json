@@ -52,7 +52,7 @@
             "id": "ryan-cat112",
             "artist": "ryan",
             "title": "Ryan's Cat",
-            "filename": "RyanCat112.jpg",
+            "filename": "Ryancat112.jpg",
             "date": "2024-01-15",
             "emoji": "👨‍🔬"
         },
@@ -326,6 +326,222 @@
             "title": "Minecraft Adventure",
             "filename": "FelixTekeningMinecraft1.jpg",
             "date": "2024-01-01",
+            "emoji": "🦕"
+        },
+        {
+            "id": "ryan-1",
+            "artist": "ryan",
+            "title": "Ryan's Drawing 1",
+            "filename": "Ryan1.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-dino-land",
+            "artist": "ryan",
+            "title": "Ryan's Dino Land",
+            "filename": "RyanDinoLand.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-doreamon",
+            "artist": "ryan",
+            "title": "Ryan's Doreamon",
+            "filename": "RyanDoreamon.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-gek-11",
+            "artist": "ryan",
+            "title": "Ryan's Gek 11",
+            "filename": "RyanGek11.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-gekke-krachten",
+            "artist": "ryan",
+            "title": "Ryan's Gekke Krachten",
+            "filename": "RyanGekkeKrachten.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-gekker",
+            "artist": "ryan",
+            "title": "Ryan's Gekker",
+            "filename": "RyanGekker.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-gekkie",
+            "artist": "ryan",
+            "title": "Ryan's Gekkie",
+            "filename": "RyanGekkie.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-ghast",
+            "artist": "ryan",
+            "title": "Ryan's Ghast",
+            "filename": "RyanGhast.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-kirby-transformatie",
+            "artist": "ryan",
+            "title": "Ryan's Kirby Transformatie",
+            "filename": "RyanKirbyTransformatie.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-lab",
+            "artist": "ryan",
+            "title": "Ryan's Lab",
+            "filename": "RyanLab.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-monster-pika",
+            "artist": "ryan",
+            "title": "Ryan's Monster Pika",
+            "filename": "RyanMonsterPika.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-pika",
+            "artist": "ryan",
+            "title": "Ryan's Pika",
+            "filename": "RyanPika.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-snakes",
+            "artist": "ryan",
+            "title": "Ryan's Snakes",
+            "filename": "RyanSnakes.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-virus",
+            "artist": "ryan",
+            "title": "Ryan's Virus",
+            "filename": "RyanVirus.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "ryan-warrior-cat",
+            "artist": "ryan",
+            "title": "Ryan's Warrior Cat",
+            "filename": "RyanWarriorCat.jpg",
+            "date": "2026-04-09",
+            "emoji": "👨‍🔬"
+        },
+        {
+            "id": "felix-1",
+            "artist": "felix",
+            "title": "Felix's Drawing 1",
+            "filename": "Felix1.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-big-snake",
+            "artist": "felix",
+            "title": "Felix's Big Snake",
+            "filename": "FelixBigSnake.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-cheeta",
+            "artist": "felix",
+            "title": "Felix's Cheeta",
+            "filename": "FelixCheeta.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-ender-dragon",
+            "artist": "felix",
+            "title": "Felix's Ender Dragon",
+            "filename": "FelixEnderDragon.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-gezin",
+            "artist": "felix",
+            "title": "Felix's Gezin",
+            "filename": "FelixGezin.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-hou-ge-zwaai",
+            "artist": "felix",
+            "title": "Felix's Hou Ge Zwaai",
+            "filename": "FelixHouGeZwaai.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-mini-dino",
+            "artist": "felix",
+            "title": "Felix's Mini Dino",
+            "filename": "FelixMiniDino.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-papa",
+            "artist": "felix",
+            "title": "Felix's Papa",
+            "filename": "FelixPapa.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-virus",
+            "artist": "felix",
+            "title": "Felix's Virus",
+            "filename": "FelixVirus.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-you-vs-wild",
+            "artist": "felix",
+            "title": "Felix's You vs Wild",
+            "filename": "FelixYouvsWild.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-dino-verhaal",
+            "artist": "felix",
+            "title": "Felix's Dino Verhaal",
+            "filename": "Felix_DinoVerhaal.jpg",
+            "date": "2026-04-09",
+            "emoji": "🦕"
+        },
+        {
+            "id": "felix-hou-ge-new",
+            "artist": "felix",
+            "title": "Felix's Hou Ge New",
+            "filename": "Felix_HouGeNew.jpg",
+            "date": "2026-04-09",
             "emoji": "🦕"
         }
     ]
